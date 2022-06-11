@@ -2,23 +2,28 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateRM = ({ creator, title, motivation, purpose, tools, solution, unique, github}) =>
+const generateRM = ({ creator, title, motivation, purpose, tools, solution, code, github, link}) =>
     `# ${title}
 ## Description
--Motivation: ${motivation}
+The motivation of this project was ${motivation}.
 
--Purpose: ${purpose}
+This project solves the issue of ${purpose}.
 
--Solution: ${solution}
-${unique}
+
+## Table of Contents
+
 
 ## Installation
 
 This project requires the following: ${tools}
 
-## Credits
+The following code will be necessary to utilize this project:
 
-Contributor: [${creator}](https://github.com/${github})
+\`\`\` ${code} \`\`\`
+
+## Usage 
+
+Link to deployed application: [${title}](${link})
 
 ## License 
 
@@ -30,7 +35,17 @@ MIT License
   
   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
   
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.`;
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  
+  ## Contributing
+  
+  [${creator}](https://github.com/${github})
+
+  ## Tests
+  
+  
+  ## Questions
+`;
 
 
 const questions = [
@@ -56,23 +71,28 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'tools',
-        message: 'What is needed for this project to be properly executed?',
-    },
-    {
-        type: 'input',
         name: 'solution',
         message: 'What problem does it solve?',
     },
     {
         type: 'input',
-        name: 'unique',
-        message: 'What makes your project stand out?',
+        name: 'tools',
+        message: 'What is needed for this project to be properly executed?',
+    },
+    {
+        type: 'input',
+        name: 'code',
+        message: 'What coding needs to be installed?',
+    },
+    {
+        type: 'input',
+        name: 'link',
+        message: 'Please enter the link to the project: ',
     },
     {
         type: 'input',
         name: 'github',
-        message: 'What is your github username?',
+        message: 'Please enter your GitHub name: ',
     }
 ];
 
