@@ -4,10 +4,15 @@ const fs = require('fs');
 
 const generateRM = ({ creator, title, motivation, purpose, tools, utilization, contribution, code, test, github, link, email, license}) =>
     `# ${title}
+
 ## Description
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 The motivation of this project was ${motivation}.
 
 This project solves the issue of ${purpose}.
+
+
 
 
 ## Table of Contents

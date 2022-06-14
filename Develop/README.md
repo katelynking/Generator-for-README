@@ -1,10 +1,12 @@
 # Generator
+
 ## Description
 The motivation of this project was motivation.
 
 This project solves the issue of purpose.
 
-Guten tag
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ## Table of Contents
 - [Installation](#installation)
@@ -17,24 +19,25 @@ Guten tag
 <a name="installation"></a>
 ## Installation 
 
-This project requires the following: VSCode
+This project requires the following: tools
 
 The following code will be necessary to utilize this project:
 
-``` npm init -y ```
+``` npm i  ```
 <a name="usage"></a>
 ## Usage 
 Link to deployed application: [Generator](link)
 
-First, this. Then, this. Next, this. Finally, this.
+1. 2. 3.
 
 
 <a name="license"></a>
 ## License 
 
+MIT license
 MIT License
     
-  Copyright (c) 2022 Katelyn King
+  Copyright (c) 2022 Kate
   
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Generator"), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions:
   
@@ -45,15 +48,15 @@ MIT License
   <a name="contributing"></a>
   ## Contributing
   
-  Created by [Katelyn King](https://github.com/katelynking)
+  Created by [Kate](https://github.com/katelyking)
   
-  If you would like to contribute to this project, you can do so by adding an input for a screenshot.
+  If you would like to contribute to this project, you can do so by doing this.
 
   <a name="test"></a>
   ## Tests
-  xyz
+  test
  
 
   <a name="questions"></a>
   ## Questions
-  For any questions, please do not hesitate to contact me at katelynking@gmail.com!
+  For any questions, please do not hesitate to contact me via [email](katelynking112@gmail.com) or [GitHub](https://github.com/katelyking) !
