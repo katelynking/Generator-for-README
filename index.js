@@ -88,7 +88,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((data) => {
-            writeToFile('README.md', data, (err) => err
+            writeToFile('README-new.md', data, (err) => err
                 ? console.log(err)
                 : console.log('Successfully created new README.md!'));
         });
