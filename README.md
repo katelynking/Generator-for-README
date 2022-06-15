@@ -30,7 +30,14 @@ The following code will be necessary to utilize this project:
 ## Usage 
 Link to deployed application: [Generator for README.md file](https://github.com)
 
-1. Download VSCode and Node.js if not already downloaded. 2. Create a repo in GitHub and clone it into a new project folder 3. Create your project. 4. Open 'Generator for README.md file' in VSCode. 5. Open an integrated terminal to download npm init -y and npm i. 6. Run the code using 'node index.js' 7. Fill in the information in the prompts. 8. Copy and paste the generated README.md file into your project folder.  
+1. Download VSCode and Node.js if not already downloaded. 
+2. Create a repo in GitHub and clone it into a new project folder 
+3. Create your project. 
+4. Open 'Generator for README.md file' in VSCode. 
+5. Open an integrated terminal to download npm init -y and npm i. 
+6. Run the code using 'node index.js' 
+7. Fill in the information in the prompts. 
+8. Copy and paste the generated README.md file into your project folder.  
 
 
 <a name="license"></a>
