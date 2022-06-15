@@ -450,7 +450,9 @@ ${data.license}
 
   <a name="questions"></a>
   ## Questions
+  
   GitHub username: [${data.github}](https://github.com/${data.github})
+  
   Email: ${data.email}
   
   Please feel free to contact me with any questions.

@@ -59,7 +59,9 @@ MIT
 
   <a name="questions"></a>
   ## Questions
+  
   GitHub username: [katelynking](https://github.com/katelynking)
+  
   Email: katelynking112@gmail.com
   
   Please feel free to contact me with any questions.
