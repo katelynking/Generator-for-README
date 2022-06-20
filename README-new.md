@@ -1,13 +1,13 @@
-# Generator for README.md file
+# Workday Scheduler
 
 ## Description
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: BSD](https://img.shields.io/badge/License-BSD-yellow.svg)](https://opensource.org/licenses/BSD)
 
 
-The motivation of this project was motivation.
+The motivation of this project was create a simple, efficient planner to use during the workday.
 
-This project solves the issue of purpose.
+This project solves the issue of disorganization and poor time management.
 
 
 ## Table of Contents
@@ -21,21 +21,19 @@ This project solves the issue of purpose.
 <a name="installation"></a>
 ## Installation 
 
-This project requires the following: VSCode and Node.js
+This project requires the following: a working browser
 
-The following code will be necessary to utilize this project:
-
-``` npm init -y and npm i ```
 <a name="usage"></a>
 ## Usage 
-Link to deployed application: [Generator for README.md file](https://github.com)
+Link to deployed application: [Workday Scheduler](https://katelynking.github.io/Workday-Scheduler/)
 
-1. 2. 3.
+1. Click link to open application. 
+2. Type plans for each hour block and click the save button.
 
 
 <a name="license"></a>
 ## License 
-MIT
+BSD
 
   
   <a name="contributing"></a>
@@ -43,11 +41,11 @@ MIT
   
   Created by [Katelyn King](https://github.com/katelynking)
   
-  If you would like to contribute to this project, you can do so by xyz.
+  If you would like to contribute to this project, you can do so by creating future dates to insert plans into and maybe a monthly calendar.
 
   <a name="test"></a>
   ## Tests
-  test
+  This project was tested using Google Chrome.
  
 
   <a name="questions"></a>
