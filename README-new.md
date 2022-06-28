@@ -1,13 +1,13 @@
-# Workday Scheduler
+# Notetaker
 
 ## Description
 
-[![License: BSD](https://img.shields.io/badge/License-BSD-yellow.svg)](https://opensource.org/licenses/BSD)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-The motivation of this project was create a simple, efficient planner to use during the workday.
+The motivation of this project was to modify the Note Taker app to be able to create and save notes.
 
-This project solves the issue of disorganization and poor time management.
+This project solves the issue of needing a place to write down and save notes.
 
 
 ## Table of Contents
@@ -23,17 +23,21 @@ This project solves the issue of disorganization and poor time management.
 
 This project requires the following: a working browser
 
+
 <a name="usage"></a>
 ## Usage 
-Link to deployed application: [Workday Scheduler](https://katelynking.github.io/Workday-Scheduler/)
+Link to deployed application: [Notetaker](https://notetaker-kark.herokuapp.com/)
 
-1. Click link to open application. 
-2. Type plans for each hour block and click the save button.
+1. Click the link 
+2. Click the button that says "Get Started" 
+3. Type in a title for the note 
+4. Type in the context for the note 
+5. Click the save button in the upper right hand corner 
 
 
 <a name="license"></a>
 ## License 
-BSD
+MIT
 
   
   <a name="contributing"></a>
@@ -41,11 +45,11 @@ BSD
   
   Created by [Katelyn King](https://github.com/katelynking)
   
-  If you would like to contribute to this project, you can do so by creating future dates to insert plans into and maybe a monthly calendar.
+
 
   <a name="test"></a>
   ## Tests
-  This project was tested using Google Chrome.
+  This project was tested on Google Chrome via heroku.
  
 
   <a name="questions"></a>

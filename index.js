@@ -18,12 +18,12 @@ const questions = [
     {
         type: 'input',
         name: 'motivation',
-        message: 'What was the motivation behind this project?',
+        message: 'The motivation of this project was to:',
     },
     {
         type: 'input',
         name: 'purpose',
-        message: 'Why did you build this project?',
+        message: 'This project solves the issue of:',
     },
     {
         type: 'input',
@@ -63,7 +63,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'Please enter your GitHub name: ',
+        message: 'Please enter your GitHub name:',
     },
     {
         type: 'list',
