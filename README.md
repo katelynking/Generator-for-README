@@ -40,7 +40,7 @@ Link to deployed application: [Generator for README.md file](https://katelynking
 8. Copy and paste the generated README.md file into your project folder.  
 
 
-![Screenshot of project](./Untitled_%20Jun%2015%2C%202022%203_32%20PM.gif)
+![Screenshot of project](/assets/generator.gif)
 
 <a name="license"></a>
 ## License 
